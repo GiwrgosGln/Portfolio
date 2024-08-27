@@ -44,7 +44,7 @@ const Loader = () => {
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.5, delay: 2.2 }}
+        transition={{ duration: 1, delay: 2.2 }}
         className="col-start-2 row-start-3 text-center text-4xl md:text-6xl font-semibold"
       >
         Software Engineer

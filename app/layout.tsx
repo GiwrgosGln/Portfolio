@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuroraBackground } from "@/components/ui/aurora-background";
+import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AuroraBackground className="h-screen w-screen overflow-x-hidden bg-gray-900 dark">
+        <div className="h-screen w-screen overflow-x-hidden bg-gray-900 dark">
           {children}
-        </AuroraBackground>
+        </div>
       </body>
     </html>
   );

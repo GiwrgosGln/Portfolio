@@ -1,3 +1,4 @@
+import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
