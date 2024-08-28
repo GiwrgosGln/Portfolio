@@ -29,7 +29,7 @@ const Loader = () => {
         initial={{ opacity: 1, y: 0 }}
         animate={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5, delay: 2.2 }}
-        className="col-start-2 row-start-3 text-center text-4xl md:text-6xl font-semibold sm:-mt-20"
+        className="col-start-2 row-start-3 text-center text-4xl md:text-6xl font-semibold -mt-20"
       >
         Glinias Georgios
       </motion.p>
@@ -37,7 +37,7 @@ const Loader = () => {
         initial={{ opacity: 1, y: 0 }}
         animate={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5, delay: 2.2 }}
-        className="col-start-3 row-start-5 text-center text-5xl md:text-9xl font-semibold sm:-mt-20 sm:-ml-5"
+        className="col-start-3 row-start-5 text-center text-5xl md:text-9xl font-semibold -mt-20 -ml-5"
       >
         {percentage}%
       </motion.p>
@@ -45,7 +45,7 @@ const Loader = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 2.2 }}
-        className="col-start-2 row-start-3 text-center text-4xl md:text-6xl font-semibold sm:-mt-20"
+        className="col-start-2 row-start-3 text-center text-4xl md:text-6xl font-semibold -mt-20"
       >
         Software Engineer
       </motion.p>

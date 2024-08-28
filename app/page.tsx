@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
-import Loader from "./components/Loader";
-import Hero from "./components/Hero";
+import Loader from "../components/Loader";
+import Hero from "../components/Hero";
 import { motion } from "framer-motion";
 
 export default function Home() {
