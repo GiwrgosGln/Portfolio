@@ -1,0 +1,28 @@
+{
+  "experience": [
+    {
+      "company": "Prisma Electronics",
+      "position": "Frontend Developer",
+      "url": "https://www.prismaelectronics.eu/index.php/en/",
+      "startDate": "Apr 2023",
+      "endDate": "Oct 2023",
+      "description": "Contributing as a Design Engineer in a remote-first environment, focusing on bridging the gap between design and engineering through systematic approaches to product development. Taking ownership of design systems architecture and implementing scalable component libraries that ensure consistency and accessibility. Working cross-functionally with both design and engineering teams to deliver cohesive user experiences. Key responsibilities include developing reusable design patterns, creating technical specifications for design implementations, and establishing frameworks for design-to-code workflows. Utilizing modern frontend technologies and design tools to create scalable, maintainable solutions that align with both technical and aesthetic requirements.",
+      "skills": [
+        "TypeScript",
+        "React.js",
+        "C#",
+        ".NET Framework",
+        "Microsoft SQL Server"
+      ]
+    },
+    {
+      "company": "Netsoft Technologies",
+      "position": "Full Stack Developer",
+      "url": "https://www.netsoft.gr",
+      "startDate": "Jan 2024",
+      "endDate": "Present",
+      "description": "Contributing as a Design Engineer in a remote-first environment, focusing on bridging the gap between design and engineering through systematic approaches to product development. Taking ownership of design systems architecture and implementing scalable component libraries that ensure consistency and accessibility. Working cross-functionally with both design and engineering teams to deliver cohesive user experiences. Key responsibilities include developing reusable design patterns, creating technical specifications for design implementations, and establishing frameworks for design-to-code workflows. Utilizing modern frontend technologies and design tools to create scalable, maintainable solutions that align with both technical and aesthetic requirements.",
+      "skills": ["JavaScript", "React Native", "React.js", "Wordpress"]
+    }
+  ]
+}

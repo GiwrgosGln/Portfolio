@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "title": "Expo Fit",
+      "description": "A detailed description of your first project and what it accomplishes",
+      "technologies": ["React Native", "Expo", "JavaScript", "Redux"],
+      "imagePath": "/src/assets/project1.png",
+      "liveUrl": "https://project1.com",
+      "githubUrl": "https://github.com/yourusername/project1",
+      "featured": true
+    },
+    {
+      "title": "Gin Fit API",
+      "description": "A detailed description of your first project and what it accomplishes",
+      "technologies": ["Golang", "Gin Gonic", "MongoDB"],
+      "imagePath": "/src/assets/project1.png",
+      "liveUrl": "https://project1.com",
+      "githubUrl": "https://github.com/yourusername/project1",
+      "featured": true
+    },
+    {
+      "title": "Project Name 2",
+      "description": "Description of your second project highlighting key features",
+      "technologies": ["Vue.js", "Firebase", "Tailwind"],
+      "imagePath": "/src/assets/project2.png",
+      "liveUrl": "https://project2.com",
+      "githubUrl": "https://github.com/yourusername/project2",
+      "featured": false
+    }
+  ]
+}
