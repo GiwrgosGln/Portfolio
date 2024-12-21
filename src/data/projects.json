@@ -19,8 +19,8 @@
       "featured": true
     },
     {
-      "title": "Airbnb",
-      "description": "Description of your second project highlighting key features",
+      "title": "Airbnb - Annecy Apartment",
+      "description": "A luxury apartment rental website showcasing a high-end property in the heart of Alexandroupoli, Greece. Built with modern web technologies to deliver an elegant user experience. Features include a photo gallery, detailed room descriptions, amenities listings, and location information.",
       "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap v5"],
       "imagePath": "/src/assets/project2.png",
       "liveUrl": "https://annecy-apartment.com/",

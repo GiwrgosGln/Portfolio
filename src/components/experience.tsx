@@ -33,8 +33,13 @@ export default function Experience() {
                 <FaExternalLinkAlt color="white" />
               </a>
             </div>
-            <p className="text-primaryText text-base xl:text-lg 2xl:text-xl mt-4 text-justify">
-              {job.description}
+            <p className="text-primaryText text-base xl:text-lg 2xl:text-xl mt-4 text-justify flex flex-col gap-5">
+              {job.description.map((desc, i) => (
+                <span key={i}>
+                  • {desc}
+                  <br />
+                </span>
+              ))}
             </p>
             <div className="mt-10 gap-3 flex flex-wrap">
               {job.skills.map((skill, skillIndex) => (

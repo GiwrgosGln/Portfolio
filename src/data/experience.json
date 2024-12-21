@@ -6,7 +6,11 @@
       "url": "https://www.netsoft.gr",
       "startDate": "Jan 2024",
       "endDate": "Present",
-      "description": "Contributing as a Design Engineer in a remote-first environment, focusing on bridging the gap between design and engineering through systematic approaches to product development. Taking ownership of design systems architecture and implementing scalable component libraries that ensure consistency and accessibility. Working cross-functionally with both design and engineering teams to deliver cohesive user experiences. Key responsibilities include developing reusable design patterns, creating technical specifications for design implementations, and establishing frameworks for design-to-code workflows. Utilizing modern frontend technologies and design tools to create scalable, maintainable solutions that align with both technical and aesthetic requirements.",
+      "description": [
+        "Managed client onboarding process including database setup and application deployment for new customers",
+        "Collaborated with CTO to integrate Atlantis ERP with POS and Signature Providers, enhancing payment processing and transactions",
+        "Developed frontend application for SPA management serving major hotel groups across Greece"
+      ],
       "skills": [
         "TypeScript",
         "React.js",
@@ -22,7 +26,11 @@
       "url": "https://www.prismaelectronics.eu/index.php/en/",
       "startDate": "Apr 2023",
       "endDate": "Oct 2023",
-      "description": "Contributing as a Design Engineer in a remote-first environment, focusing on bridging the gap between design and engineering through systematic approaches to product development. Taking ownership of design systems architecture and implementing scalable component libraries that ensure consistency and accessibility. Working cross-functionally with both design and engineering teams to deliver cohesive user experiences. Key responsibilities include developing reusable design patterns, creating technical specifications for design implementations, and establishing frameworks for design-to-code workflows. Utilizing modern frontend technologies and design tools to create scalable, maintainable solutions that align with both technical and aesthetic requirements.",
+      "description": [
+        "Developed a smart home mobile application using React Native CLI, working closely with backend developers for seamless integration",
+        "Led the redesign of company's webstore using WordPress and Elementor to enhance user experience",
+        "Performed QA testing to identify and document bugs, contributing to project quality assurance"
+      ],
       "skills": ["JavaScript", "React.js", "React Native", "Wordpress"]
     }
   ]

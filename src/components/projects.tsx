@@ -15,7 +15,7 @@ export default function Projects() {
           ref={ref}
           initial={{ y: 200, opacity: 0 }}
           animate={isInView ? { y: 0, opacity: 1 } : { y: 200, opacity: 0 }}
-          transition={{ duration: 1, delay: index * 0.3 }}
+          transition={{ duration: 1, delay: index * 0.2 }}
           key={index}
           className="w-full bg-projectsBackground p-4 rounded-xl border border-gray-700"
         >
@@ -36,7 +36,7 @@ export default function Projects() {
               )}
             </div>
           </div>
-          <p className="text-primaryText text-base xl:text-lg 2xl:text-xl mt-5">
+          <p className="text-primaryText text-base xl:text-lg 2xl:text-xl text-justify mt-5">
             {project.description.split("\n").map((line, index) => (
               <span key={index}>
                 {line}
