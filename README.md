@@ -2,6 +2,10 @@
 
 This is a modern and responsive portfolio website built using React, TypeScript, and Vite. It showcases your projects, skills, and experiences in a clean and professional manner.
 
+## 🌐 Live Demo
+
+Check out the live version of the portfolio: [https://glns.dev/](https://glns.dev/)
+
 ## 🚀 Tech Stack
 
 - **React**: A JavaScript library for building user interfaces.
