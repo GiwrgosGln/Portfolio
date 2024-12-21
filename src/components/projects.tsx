@@ -13,9 +13,9 @@ export default function Projects() {
       {projectsData.projects.map((project, index) => (
         <motion.div
           ref={ref}
-          initial={{ y: 200, opacity: 0 }}
-          animate={isInView ? { y: 0, opacity: 1 } : { y: 200, opacity: 0 }}
-          transition={{ duration: 1, delay: index * 0.2 }}
+          initial={{ opacity: 0 }}
+          animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+          transition={{ duration: 1, delay: index * 0.5 }}
           key={index}
           className="w-full bg-projectsBackground p-4 rounded-xl border border-gray-700"
         >
