@@ -4,13 +4,14 @@
       "title": "Expo Fit",
       "description": "🏃‍♂️ Workout tracking and planning\n📊 Progress monitoring\n💪 Exercise library with proper form guides\n🎯 Goal setting and achievement tracking",
       "technologies": [
+        "JavaScript",
         "React Native",
         "Expo",
-        "JavaScript",
         "Redux",
         "Golang",
         "Gin Gonic",
-        "MongoDB"
+        "MongoDB",
+        "Firebase Authentication"
       ],
       "imagePath": "/src/assets/project1.png",
       "liveUrl": "",
@@ -20,10 +21,10 @@
     {
       "title": "Airbnb",
       "description": "Description of your second project highlighting key features",
-      "technologies": ["Vue.js", "Firebase", "Tailwind"],
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap v5"],
       "imagePath": "/src/assets/project2.png",
       "liveUrl": "https://annecy-apartment.com/",
-      "githubUrl": "https://github.com/yourusername/project2",
+      "githubUrl": "",
       "featured": false
     }
   ]
