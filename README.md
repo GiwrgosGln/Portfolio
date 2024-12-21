@@ -26,13 +26,11 @@ Follow these steps to set up and run the project locally:
    git clone https://github.com/GiwrgosGln/Portfolio.git
    ```
 2. **Install the dependencies**:
-
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. **Start the development server**:
-
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
