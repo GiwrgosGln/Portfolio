@@ -2,12 +2,20 @@ import projectsData from "../data/projects.json";
 import { GoArrowUpRight } from "react-icons/go";
 import { FaGithub } from "react-icons/fa";
 import Separator from "./separator";
+import { motion, useInView } from "motion/react";
+import { useRef } from "react";
 
 export default function Projects() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   return (
     <div className="mt-20 flex flex-col px-5 md:px-0 w-screen md:w-2/3 2xl:w-1/2 gap-5">
       {projectsData.projects.map((project, index) => (
-        <div
+        <motion.div
+          ref={ref}
+          initial={{ y: 200, opacity: 0 }}
+          animate={isInView ? { y: 0, opacity: 1 } : { y: 200, opacity: 0 }}
+          transition={{ duration: 1, delay: index * 0.3 }}
           key={index}
           className="w-full bg-projectsBackground p-4 rounded-xl border border-gray-700"
         >
@@ -48,7 +56,7 @@ export default function Projects() {
               ))}
             </div>
           </div>
-        </div>
+        </motion.div>
       ))}
       <Separator />
     </div>

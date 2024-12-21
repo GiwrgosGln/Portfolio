@@ -1,12 +1,18 @@
 import experienceData from "../data/experience.json";
 import { FaCircle, FaExternalLinkAlt } from "react-icons/fa";
 import Separator from "./separator";
+import { motion } from "motion/react";
 
 export default function Experience() {
   return (
     <div className="mt-20 flex flex-col px-5 md:px-0 w-screen md:w-2/3 2xl:w-1/2 gap-20">
       {experienceData.experience.map((job, index) => (
-        <div key={index} className="flex flex-col lg:flex-row gap-5 lg:gap-5">
+        <motion.div
+          animate={{ opacity: [0, 1], y: [200, 0] }}
+          transition={{ duration: 1, delay: 2 }}
+          key={index}
+          className="flex flex-col lg:flex-row gap-5 lg:gap-5"
+        >
           <div>
             <p className="text-secondary text-base xl:text-lg 2xl:text-xl w-auto md:w-40 2xl:w-60">
               {job.startDate} - {job.endDate}
@@ -41,7 +47,7 @@ export default function Experience() {
               ))}
             </div>
           </div>
-        </div>
+        </motion.div>
       ))}
       <Separator />
     </div>
