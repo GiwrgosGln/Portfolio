@@ -2,28 +2,27 @@
   "projects": [
     {
       "title": "Expo Fit",
-      "description": "A detailed description of your first project and what it accomplishes",
-      "technologies": ["React Native", "Expo", "JavaScript", "Redux"],
+      "description": "🏃‍♂️ Workout tracking and planning\n📊 Progress monitoring\n💪 Exercise library with proper form guides\n🎯 Goal setting and achievement tracking",
+      "technologies": [
+        "React Native",
+        "Expo",
+        "JavaScript",
+        "Redux",
+        "Golang",
+        "Gin Gonic",
+        "MongoDB"
+      ],
       "imagePath": "/src/assets/project1.png",
-      "liveUrl": "https://project1.com",
-      "githubUrl": "https://github.com/yourusername/project1",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/GiwrgosGln/ExpoFit",
       "featured": true
     },
     {
-      "title": "Gin Fit API",
-      "description": "A detailed description of your first project and what it accomplishes",
-      "technologies": ["Golang", "Gin Gonic", "MongoDB"],
-      "imagePath": "/src/assets/project1.png",
-      "liveUrl": "https://project1.com",
-      "githubUrl": "https://github.com/yourusername/project1",
-      "featured": true
-    },
-    {
-      "title": "Project Name 2",
+      "title": "Airbnb",
       "description": "Description of your second project highlighting key features",
       "technologies": ["Vue.js", "Firebase", "Tailwind"],
       "imagePath": "/src/assets/project2.png",
-      "liveUrl": "https://project2.com",
+      "liveUrl": "https://annecy-apartment.com/",
       "githubUrl": "https://github.com/yourusername/project2",
       "featured": false
     }

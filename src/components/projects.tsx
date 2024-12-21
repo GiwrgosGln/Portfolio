@@ -13,12 +13,21 @@ export default function Projects() {
           <div className="flex flex-row justify-between items-center">
             <h2 className="text-secondaryText text-xl">{project.title}</h2>
             <div className="flex flex-row gap-1 justify-center items-center">
-              <a href={project.liveUrl}>
-                <GoArrowUpRight color="#4461AF" size={30} />
-              </a>
+              {project.liveUrl && (
+                <a href={project.liveUrl}>
+                  <GoArrowUpRight color="#4461AF" size={30} />
+                </a>
+              )}
             </div>
           </div>
-          <p className="text-primaryText mt-5">{project.description}</p>
+          <p className="text-primaryText mt-5">
+            {project.description.split("\n").map((line, index) => (
+              <span key={index}>
+                {line}
+                <br />
+              </span>
+            ))}
+          </p>
           <div className="flex flex-row justify-between items-center gap-2 mt-5">
             <div className="gap-3 flex flex-row">
               {project.technologies.map((tech, techIndex) => (
