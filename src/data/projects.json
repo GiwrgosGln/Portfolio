@@ -26,6 +26,15 @@
       "liveUrl": "https://annecy-apartment.com/",
       "githubUrl": "",
       "featured": false
+    },
+    {
+      "title": "Logistics Website",
+      "description": "A modern landing page for our logistics business, showcasing our commitment to efficient logistics solutions.",
+      "technologies": ["React", "TypeScript", "TailwindCSS", "Shadcn/ui"],
+      "imagePath": "",
+      "liveUrl": "https://www.moutsidis-anipsotika.com/",
+      "githubUrl": "",
+      "featured": false
     }
   ]
 }
